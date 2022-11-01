@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: fantasy;
+}
+body{
+    position: relative;
+    min-height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+.sidebar{
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    height: 100%;
+    width: 25%;
+    background: lightseagreen;
+    padding: 6px 14px;
+}
+
+.sidebar .logo_content .logo{
+    color: yellowgreen;
+    display: flex;
+height: 50%;
+width: 100%;
+align-items: center;
+}
+
+.logo_content .logo i{
+    font-size: 30px;
+    margin-right: 5px;
+}
+
+.logo_content .logo .logo_name{
+    font-size: 20px;
+    font-style: italic;
+}
+
+.sidebar #menubtn{
+    position: absolute;
+    color: white;
+    left: 90%;
+    top: 6px;
+    font-size: 25px;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    line-height: 50px;
+    transform: translate(-50px);
+}
+
+.sidebar ul li a{
+    color: white;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    padding-left: 20px;
+    transition: all 0.5s ease-in-out;
+    border-radius: 12px;
+}
+
+.sidebar ul li a:hover{
+    background: mediumvioletred;
+    color: white;
+    border-radius: 10px 30px;
+}
+
+.sidebarul li a i{
+    height: 50px;
+    min-width: 50px;
+    border-radius: 12px;
+line-height: 50px;
+}
+.sidebarul li input{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    border-radius: 12px;
+    outline: none;
+    border: none;
+    background: transparent;
+    padding-left: 50px;
+    font-size: 18px;
+    color: white;
+}
+
+.sidebar ul li .bx-search{
+    position: absolute;
+color: white;
+z-index: 99;
+font-size: 22px;
+
+}
